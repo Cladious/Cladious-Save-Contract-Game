@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+    
+    <!-- Crossed Swords -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M8,8 L12,12 L28,28 L32,32 L28,36 L24,32 L8,16 L4,12 Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,8 L28,12 L12,28 L8,32 L12,36 L16,32 L32,16 L36,12 Z" />
+    
+    <!-- Sword Hilts -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M6,10 A3,3 0 1,1 6,10 Z" />
+    
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M34,10 A3,3 0 1,1 34,10 Z" />
+    
+    <!-- VS Symbol -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M16,20 L20,16 L20,24 Z M20,20 L24,16 L24,24 Z"
+        android:strokeColor="#FF0000"
+        android:strokeWidth="2" />
+        
+</vector> 

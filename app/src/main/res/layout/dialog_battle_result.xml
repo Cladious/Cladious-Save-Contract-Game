@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bg"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <!-- Winner Icon -->
+    <TextView
+        android:id="@+id/winnerIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🏆"
+        android:textSize="72sp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center" />
+
+    <!-- Winner Text -->
+    <TextView
+        android:id="@+id/winnerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VICTORY!"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/gold"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:letterSpacing="0.1" />
+
+    <!-- Final Score -->
+    <TextView
+        android:id="@+id/finalScoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Final Score: 1200 vs 800"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:background="@drawable/stat_bg"
+        android:padding="12dp" />
+
+    <!-- Battle Stats -->
+    <TextView
+        android:id="@+id/battleStatsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚔️ Battle Type: CODE_COMPLETION\n🎯 Your Gaps Solved: 8/10\n👻 Opponent Gaps: 6/10\n🏆 Battle Wins: 5"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/code_bg"
+        android:padding="16dp"
+        android:fontFamily="monospace"
+        android:lineSpacingExtra="4dp" />
+
+    <!-- Action Buttons Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+        <!-- Rematch Button -->
+        <Button
+            android:id="@+id/rematchButton"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="⚔️ REMATCH"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/battle_button_bg"
+            android:layout_marginEnd="8dp"
+            android:elevation="6dp" />
+
+        <!-- Exit Button -->
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="🚪 EXIT"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/button_secondary_bg"
+            android:layout_marginStart="8dp"
+            android:elevation="6dp" />
+
+    </LinearLayout>
+
+    <!-- Battle Stats Badges -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <!-- Points Earned Badge -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💰 +200"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/badge_bg"
+            android:padding="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <!-- XP Earned Badge -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⭐ +50 XP"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/badge_background"
+            android:padding="8dp"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout> 

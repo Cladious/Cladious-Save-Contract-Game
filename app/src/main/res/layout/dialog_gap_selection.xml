@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bg"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <!-- Gap Title -->
+    <TextView
+        android:id="@+id/gapTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🔍 Gap 1 (50 points)"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/neon_green"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="16dp"
+        android:gravity="center" />
+
+    <!-- Gap Description -->
+    <TextView
+        android:id="@+id/gapDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose the correct option to fill this gap:"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:background="@drawable/edit_text_bg"
+        android:padding="12dp" />
+
+    <!-- Options Container -->
+    <LinearLayout
+        android:id="@+id/optionsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+        
+        <!-- Options will be added dynamically -->
+        
+    </LinearLayout>
+
+    <!-- Action Buttons Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Hint Button -->
+        <Button
+            android:id="@+id/gapHintButton"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="💡 HINT"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/hint_button_bg"
+            android:layout_marginEnd="8dp"
+            android:elevation="4dp" />
+
+        <!-- Confirm Button -->
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="2"
+            android:text="✅ CONFIRM"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            style="@style/PrimaryButton"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+    <!-- Info Text -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💡 Select an option above and confirm your choice"
+        android:textSize="12sp"
+        android:textColor="@color/gray"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:fontStyle="italic" />
+
+</LinearLayout> 

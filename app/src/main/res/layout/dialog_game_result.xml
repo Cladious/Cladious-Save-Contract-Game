@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bg"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <!-- Result Icon -->
+    <TextView
+        android:id="@+id/resultIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🏆"
+        android:textSize="64sp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center" />
+
+    <!-- Result Title -->
+    <TextView
+        android:id="@+id/resultTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXCELLENT!"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/gold"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:letterSpacing="0.1" />
+
+    <!-- Score Display -->
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎯 Score: 1500 points"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:background="@drawable/stat_bg"
+        android:padding="16dp" />
+
+    <!-- Challenge Details -->
+    <TextView
+        android:id="@+id/detailsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✅ Correct: 8/10\n⚡ Speed Bonus: +200\n💡 Hint Penalty: -50\n🔥 Current Streak: 5"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/code_bg"
+        android:padding="16dp"
+        android:fontFamily="monospace"
+        android:lineSpacingExtra="4dp"
+        android:gravity="center" />
+
+    <!-- Explanation Text -->
+    <TextView
+        android:id="@+id/explanationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SQL Injection occurs when user input is not properly validated and sanitized before being used in database queries."
+        android:textSize="12sp"
+        android:textColor="@color/light_gray"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_text_bg"
+        android:padding="12dp"
+        android:fontFamily="monospace"
+        android:lineSpacingExtra="2dp" />
+
+    <!-- Action Buttons Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+        <!-- Next Challenge Button -->
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="➡️ NEXT"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            style="@style/PrimaryButton"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Retry Button -->
+        <Button
+            android:id="@+id/retryButton"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="🔄 RETRY"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/button_secondary_bg"
+            android:layout_marginStart="8dp"
+            android:elevation="6dp" />
+
+    </LinearLayout>
+
+    <!-- Achievement Badges -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <!-- Points Badge -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💰 +1500"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/badge_bg"
+            android:padding="8dp"
+            android:layout_marginEnd="4dp" />
+
+        <!-- XP Badge -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⭐ +75 XP"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/badge_background"
+            android:padding="8dp"
+            android:layout_marginHorizontal="4dp" />
+
+        <!-- Streak Badge -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔥 STREAK"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/hint_button_bg"
+            android:padding="8dp"
+            android:layout_marginStart="4dp" />
+
+    </LinearLayout>
+
+</LinearLayout> 

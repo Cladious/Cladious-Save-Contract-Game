@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+    
+    <!-- Star Background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,2 L24,14 L36,14 L27,22 L31,34 L20,27 L9,34 L13,22 L4,14 L16,14 Z" />
+    
+    <!-- Calendar -->
+    <path
+        android:fillColor="@color/gold"
+        android:pathData="M12,16 L28,16 L28,32 L12,32 Z" />
+    
+    <!-- Calendar Lines -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14,20 L26,20 M14,24 L26,24 M14,28 L26,28"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1" />
+    
+    <!-- Today Highlight -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M18,22 A2,2 0 1,1 18,22 Z" />
+        
+</vector> 

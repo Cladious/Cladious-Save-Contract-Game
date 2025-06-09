@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryDark">@color/dark_background</item>
+        <item name="colorAccent">@color/neon_green</item>
+        <item name="android:windowBackground">@color/dark_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <!-- Custom Dialog Theme -->
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryDark">@color/dark_background</item>
+        <item name="colorAccent">@color/neon_green</item>
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <!-- Base Button Style -->
+    <style name="BaseButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    
+    <!-- Primary Button Style -->
+    <style name="PrimaryButton" parent="BaseButton">
+        <item name="android:background">@drawable/submit_button_bg</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:paddingHorizontal">24dp</item>
+        <item name="android:elevation">6dp</item>
+    </style>
+    
+    <!-- Difficulty Button Styles -->
+    <style name="DifficultyButton" parent="BaseButton">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:paddingHorizontal">24dp</item>
+    </style>
+    
+    <style name="DifficultyButton.Rookie">
+        <item name="android:background">@drawable/button_rookie_bg</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="DifficultyButton.Hacker">
+        <item name="android:background">@drawable/button_hacker_bg</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="DifficultyButton.Expert">
+        <item name="android:background">@drawable/button_expert_bg</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="DifficultyButton.Legendary">
+        <item name="android:background">@drawable/button_legendary_bg</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <!-- Secondary Button Style -->
+    <style name="SecondaryButton" parent="BaseButton">
+        <item name="android:background">@drawable/button_secondary_bg</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/cyan</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:paddingVertical">12dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+    </style>
+    
+    <!-- Power-up Button Style -->
+    <style name="PowerUpButton" parent="BaseButton">
+        <item name="android:background">@drawable/power_up_button_bg</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="android:paddingHorizontal">12dp</item>
+    </style>
+    
+    <!-- Battle Button Style -->
+    <style name="BattleButton" parent="BaseButton">
+        <item name="android:background">@drawable/battle_button_bg</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:paddingVertical">14dp</item>
+        <item name="android:paddingHorizontal">20dp</item>
+    </style>
+    
+    <!-- Card View Style -->
+    <style name="GameCard">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">12dp</item>
+        <item name="cardBackgroundColor">@color/dark_card</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+    
+    <!-- Code Text Style -->
+    <style name="CodeTextStyle">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/code_bg</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textIsSelectable">true</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:scrollbarStyle">outsideInset</item>
+    </style>
+    
+    <!-- Text Styles -->
+    <style name="TitleText">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/neon_green</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+    
+    <style name="SubtitleText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/cyan</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="StatsText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="BadgeText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+</resources> 

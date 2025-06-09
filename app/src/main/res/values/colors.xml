@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Android Default Colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#00ACC1</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <!-- Basic Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#F44336</color>
+    <color name="green">#4CAF50</color>
+    <color name="blue">#2196F3</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="purple">#9C27B0</color>
+    <color name="orange">#FF9800</color>
+    <color name="pink">#E91E63</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="teal">#009688</color>
+    <color name="lime">#CDDC39</color>
+    <color name="amber">#FFC107</color>
+    <color name="gold">#FFD700</color>
+    <color name="transparent">#00000000</color>
+    
+    <!-- Gaming UI Colors -->
+    <color name="neon_cyan">#00FFFF</color>
+    <color name="neon_purple">#9933FF</color>
+    <color name="neon_green">#00FF00</color>
+    <color name="neon_blue">#0066FF</color>
+    <color name="neon_pink">#FF1493</color>
+    <color name="neon_orange">#FF4500</color>
+    <color name="electric_blue">#0080FF</color>
+    <color name="hot_pink">#FF1493</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="success_green">#4CAF50</color>
+    <color name="error">#F44336</color>
+    <color name="error_red">#F44336</color>
+    <color name="warning">#FF9800</color>
+    <color name="warning_yellow">#FFC107</color>
+    <color name="info">#2196F3</color>
+    <color name="info_blue">#2196F3</color>
+    
+    <!-- Dark Theme Colors -->
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_primary">#BB86FC</color>
+    <color name="dark_secondary">#03DAC6</color>
+    <color name="dark_card">#1A1A1A</color>
+    <color name="dark_gray">#444444</color>
+    <color name="medium_gray">#666666</color>
+    <color name="light_gray">#888888</color>
+    <color name="gray">#999999</color>
+    
+    <!-- Transparent Colors -->
+    <color name="dark_blue_transparent">#AA000033</color>
+    <color name="black_transparent">#88000000</color>
+    <color name="white_transparent">#88FFFFFF</color>
+    <color name="red_transparent">#88FF0000</color>
+    <color name="green_transparent">#8800FF00</color>
+    <color name="blue_transparent">#880000FF</color>
+    
+    <!-- Code Display Colors -->
+    <color name="code_background">#0D1117</color>
+    <color name="code_text">#C9D1D9</color>
+    <color name="code_keyword">#FF7B72</color>
+    <color name="code_string">#A5C261</color>
+    <color name="code_comment">#6A737D</color>
+    <color name="code_number">#79C0FF</color>
+    
+    <!-- Difficulty Colors -->
+    <color name="beginner_green">#28A745</color>
+    <color name="rookie_green">#4CAF50</color>
+    <color name="intermediate_orange">#FFC107</color>
+    <color name="hacker_orange">#FF9800</color>
+    <color name="advanced_red">#DC3545</color>
+    <color name="expert_red">#F44336</color>
+    <color name="expert_purple">#6F42C1</color>
+    <color name="legendary_purple">#9C27B0</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#1A1A2E</color>
+    <color name="gradient_middle">#16213E</color>
+    <color name="gradient_end">#0F3460</color>
+    
+    <!-- Button Colors -->
+    <color name="button_primary">#6200EE</color>
+    <color name="button_secondary">#03DAC6</color>
+    <color name="button_success">#4CAF50</color>
+    <color name="button_danger">#F44336</color>
+    <color name="button_warning">#FFC107</color>
+    <color name="button_info">#2196F3</color>
+    
+    <!-- Special Effect Colors -->
+    <color name="spark_gold">#FFD700</color>
+    <color name="spark_silver">#C0C0C0</color>
+    <color name="spark_bronze">#CD7F32</color>
+    <color name="glow_blue">#00BFFF</color>
+    <color name="glow_green">#00FF7F</color>
+    <color name="glow_purple">#DA70D6</color>
+</resources>
